@@ -8,6 +8,7 @@ for _, n := range number {
 return total
 }
 func main() {
-	answer := sum(1, 2)
-	fmt.Println(answer) //can also be written as fmt.Println(sum(1, 2)) directly instead of declaring the variable answer
+	fmt.Println(sum(1, 2)) //can also be written as answer := sum(1, 2) and then fmt.Println(answer)
+fmt.Println(sum(5, 10, 15))
+fmt.Println(sum())
 }
